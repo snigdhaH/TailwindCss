@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Test</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-pink-100 grid place-content-center h-screen">
+    <h1 class="text-pink-500 text-4xl">Test</h1>
+    <!--Utility classes fundamentals-->
+    <div class="">
+        <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+            <div>
+                <img class="h-36 w-36 rounded-full" src="https://i.pinimg.com/originals/7f/af/e7/7fafe7c7cdae656f99506b1035dbbc3f.jpg" alt="">
+            </div>
+            <div>
+                <div class="text-2xl font-medium text-black">
+                    TailwindCSS
+                    <p class="text-slate-800 text-base">By Snigdha Halder</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Hover-->
+    <button class="bg-sky-200 p-2 rounded-2xl mt-2 shadow-2xl hover:bg-blue-500 hover:text-white dark:bg-purple-300">Explore</button>
+
+    <!--Responsive design-->
+    <div class="text-center m-4">
+        <p class="text-blue-700 md:text-green-900">Lorem, ipsum</p>
+    </div>
+
+
+    <div class="mt-3">
+        <div class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl">
+            <div class="md:flex items-baseline">
+                <div>
+                    <img class="h-auto w-full object-scale-down md:h-full md:w-auto" src="https://repository-images.githubusercontent.com/130268121/b4fd5300-b585-11ea-8718-1e141e78842e" alt="">
+                </div>
+                <div class="p-2">
+                    <div class="uppercase tracking-wider text-blue-900 font-semibold">
+                        AN AWESOME card!
+                    </div>
+                    <a class="block mt-1 text-lg font-medium text-black hover:text-blue-800"   href="#">Tailwind CSS is amazing once you understand the <span class="bg-purple-400 p-[2px] px-[14px]">power</span> of it.
+                        <p class="mt-2 text-slate-500">To center the container, we use mx-auto utility class. It adjust the margin of the container automatically so that the container appears to be in center. </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
